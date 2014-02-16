@@ -17,8 +17,6 @@ filetext = txt.read()
 txt.close()
 
 d = {}
-# filetext.lower()
-
 
 # Print one character at a time to the screen
 for char in filetext:
