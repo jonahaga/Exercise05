@@ -27,10 +27,5 @@ for char in filetext:
         else:
             d[lowercase] = 1
 
-
-# Sort the returned dict
-# for key in sorted(d.keys()):
-#     print "%s: %d" % (key, d[key])
-
 for key in sorted(d.keys()):
     print "%d" % (d[key])
